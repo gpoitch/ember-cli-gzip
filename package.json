@@ -1,0 +1,26 @@
+{
+  "name": "ember-cli-gzip",
+  "version": "1.0.0",
+  "description": "ember-cli add-on to gzip assets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:gdub22/ember-cli-gzip.git"
+  },
+  "keywords": [
+    "ember-addon",
+    "gzip"
+  ],
+  "author": "Garth Poitras <garth22@gmail.com> (http://garthpoitras.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gdub22/ember-cli-gzip/issues"
+  },
+  "homepage": "https://github.com/gdub22/ember-cli-gzip",
+  "dependencies": {
+    "broccoli-gzip": "^0.2.0"
+  }
+}
