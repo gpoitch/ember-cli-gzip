@@ -1,4 +1,5 @@
 var gzip = require('broccoli-gzip');
+var compression = require('compression');
 
 module.exports = {
   name: 'ember-cli-gzip',
@@ -19,5 +20,10 @@ module.exports = {
     }
 
     return tree;
+  },
+  serverMiddleware: function(config) {
+    if (this.options.enabled) {
+      this.app.use(compression());
+    }
   }
 };
