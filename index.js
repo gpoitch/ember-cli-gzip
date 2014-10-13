@@ -1,12 +1,11 @@
 var gzip = require('broccoli-gzip');
-var compression = require('compression');
 
-var optionsFix;
+var addonOptions;
 
 module.exports = {
   name: 'ember-cli-gzip',
   initOptions: function() {
-    var options = optionsFix = this.options = this.app.options.gzip || {};
+    var options = addonOptions = this.options = this.app.options.gzip || {};
     options.enabled          = options.enabled !== undefined ? options.enabled : this.app.env === 'production';
     options.keepUncompressed = options.keepUncompressed !== undefined ? options.keepUncompressed : false;
     options.appendSuffix     = options.appendSuffix !== undefined ? options.appendSuffix : true;
@@ -24,8 +23,8 @@ module.exports = {
     return tree;
   },
   serverMiddleware: function(config) {
-    if (optionsFix.enabled) {
-      config.app.use(compression());
+    if (addonOptions.enabled) {
+      // TODO: add appropriate content headers for gz files
     }
   }
 };
