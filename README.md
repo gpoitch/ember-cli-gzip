@@ -27,4 +27,5 @@ var app = new EmberApp({
 - **appendSuffix**: Whether to append the .gz suffix. (Default `true`)
 
 ## Refereneces
-- [broccoli gzip](https://github.com/salsify/broccoli-gzip)
+- [broccoli-gzip](https://github.com/salsify/broccoli-gzip)
+- [connect-gzip-static](https://github.com/code42day/connect-gzip-static)
