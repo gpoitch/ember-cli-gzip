@@ -28,4 +28,3 @@ var app = new EmberApp({
 
 ## Refereneces
 - [broccoli-gzip](https://github.com/salsify/broccoli-gzip)
-- [connect-gzip-static](https://github.com/code42day/connect-gzip-static)
