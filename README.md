@@ -1,6 +1,11 @@
 # ember-cli-gzip
 
-An ember-cli add-on to gzip assets.
+An ember-cli add-on to gzip assets.  
+
+**Note:** If you use the ember-deploy addon, just use their gzip plugin: https://www.npmjs.com/package/ember-cli-deploy-gzip  
+**Note:** ember-cli already gzips your assets on its development server.  
+
+This is more of a low-level addon for custom deployments.
 
 ## Install
 ```
