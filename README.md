@@ -31,5 +31,5 @@ var app = new EmberApp({
 - **keepUncompressed**: Whether the uncompressed versions of the files should be kept. (Default `false`)
 - **appendSuffix**: Whether to append the .gz suffix. (Default `true`)
 
-## Refereneces
+## References
 - [broccoli-gzip](https://github.com/salsify/broccoli-gzip)
