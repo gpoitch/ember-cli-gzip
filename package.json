@@ -26,7 +26,8 @@
   "ember-addon": {
     "after": [
       "broccoli-asset-rev",
-      "ember-cli-sri"
+      "ember-cli-sri",
+      "prember"
     ]
   }
 }
