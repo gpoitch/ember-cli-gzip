@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/gdub22/ember-cli-gzip",
   "dependencies": {
-    "broccoli-gzip": "^0.2.0"
+    "broccoli-gzip": "^0.3.0"
   },
   "ember-addon": {
     "after": [
